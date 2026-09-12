@@ -22,7 +22,7 @@ ENV PATH="/app/.venv/bin:$PATH"
 #RUN python train.py
 #
 # 6. Declare which window the food comes out of (documentation)
-EXPOSE 8000
+EXPOSE 7000
 
 # 7. What runs the moment the tiffin is opened
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7000"]
